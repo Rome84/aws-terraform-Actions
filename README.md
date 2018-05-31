@@ -52,6 +52,7 @@ managed by terraform so manual changes into this file may break things up.
 cd ../../
 
 $ cat shared/user-data.txt
+
 #!/bin/bash  
 mkdir -p /home/ec2-user/.ssh
 cat <<FILE > /home/ec2-user/.ssh/authorized_keys
