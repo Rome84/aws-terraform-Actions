@@ -60,7 +60,9 @@ ssh-rsa AAAAEXAMPLEyc2EAAAADAQABAAABAQCxz1G2vfqCabgFNZiL/timcrISitT4ShZP0iB4G1F+
 
 # FILE
 chown ec2-user.ec2-user /home/ec2-user/.ssh/authorized_keys
+
 chmod 400 /home/ec2-user/.ssh/authorized_keys
+
 yum -y erase docker
   
   8.3. Apply configuration changes.
